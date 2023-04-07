@@ -1,4 +1,4 @@
-# Beycan\EnvatoLicenseChecker - v1.0 #
+# BeycanPress\EnvatoLicenseChecker - 0.1.0 #
 
 A class where you can check the purchase code provided by envato so you can add a licensing system to your Envato products.
 
@@ -9,7 +9,7 @@ A class where you can check the purchase code provided by envato so you can add 
 ### Using Composer
 
 * Obtain [Composer](https://getcomposer.org)
-* Run `composer require beycan/envato-license-checker`
+* Run `composer require beycanpress/envato-license-checker`
 
 ### Use alternate file load
 
@@ -22,7 +22,7 @@ Afterwards you can use `EnvatoLicenseChecker` class.
 ### Usage
 First of all, we will use the setBearerToken method to set the token you created on the Envato market.
 ```
-use Beycan\EnvatoLicenseChecker;
+use BeycanPress\EnvatoLicenseChecker;
 
 EnvatoLicenseChecker::setBearerToken('token');
 ```
@@ -36,4 +36,4 @@ If you want to get purchase information, you can use the "getPurchaseData" metho
 
 ## License ##
 
-This library is under the [GPLv3 license](https://github.com/BeycanDeveloper/envato-license-checker/blob/main/LICENSE.txt).
+This library is under the [MIT](https://github.com/BeycanPress/envato-license-checker/blob/main/LICENSE).
